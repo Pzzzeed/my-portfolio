@@ -1,28 +1,30 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  techup,
+  sahapat,
+  KT,
+  generation,
+  cmc,
+  coding,
+  database,
+  frontend,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  progresql,
+  bootstrap,
+  chakra,
+  express,
+  github,
+  stripe,
+  neatly,
+  orange,
+  ticket,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +44,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Front-End Developer",
+    additional: "Tailwind, ChakraUI, Bootstrap",
+    icon: frontend,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Back-End Developer",
+    additional: "Node.js, Express",
+    icon: coding,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Database Management",
+    additional: "MongoDB, ProgreSQL",
+    icon: database,
   },
 ];
 
@@ -73,98 +74,115 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
+    name: "Bootstrap 5",
+    icon: bootstrap,
+  },
+  {
+    name: "Chakra UI",
+    icon: chakra,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Express",
+    icon: express,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "ProgreSQL",
+    icon: progresql,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "github",
+    icon: github,
+  },
+  {
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Stripe",
+    icon: stripe,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Marketing Executive",
+    company_name: "Saha Pathanapibul Public Company Limited, Bangkok",
+    icon: sahapat,
+    iconBg: "#ffffff",
+    date: "Feb 2017 - Jan 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Responsible for Pocari Sweat product.",
+      "Planed with client about marketing plans.",
+      "Coordinated with client and related departments as planned.",
+      "Reported monthly performance to Manager.",
+      "Reported quarter performance and presented quarter plans to Board of Directors.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Marketing Officer",
+    company_name: "CMC Asia Pacific Company Limited, Bangkok",
+    icon: cmc,
+    iconBg: "#FFFFFF",
+    date: "Mar 2019 - Jun 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contacted the existing clients to maintain the business partnership/business development.",
+      "Coordinated between client and vendor, client and team.",
+      "Responsible for document related with Sales.",
+      "Warehouse management by Be a leader, supervisor of warehouse staff. Managing and monitoring CMCAP warehouse (Bangpakong) including stock inventory and order management of printing product such as owner manual and leaflet, manpower management, Creating SOP and WI for warehouse controlling, monthly facilities check.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Accounting & Financial Officer",
+    company_name: "Talad Klong Toey 2551 Company Limited, Bangkok",
+    icon: KT,
+    iconBg: "#FFFFFF",
+    date: "Sep 2021 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Summarized daily, weekly, monthly income report to management.",
+      "Prepared cash flow to the financial and accounting managers.",
+      "Prepared financial and accounting documents to accounting company for auditing process.",
+      "Summarized special expense to management.",
+      "Analyzed financial data/P&L to identify company's financial status.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Full Stack Software Developer Bootcamp",
+    company_name: "TechUp Thailand",
+    icon: techup,
+    iconBg: "#FFFFFF",
+    date: "Jan 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I have acquired the skillset to develop web applications using React.js for the front-end, and Node.js with Express for the back-end. Additionally, I have experience in managing databases using MongoDB and PostgreSQL",
+    ],
+  },
+  {
+    title: "Full Stack Software Developer Bootcamp",
+    company_name: "Generation Thailand",
+    icon: generation,
+    iconBg: "#FFFFFF",
+    date: "Feb 2023 - May 2023",
+    points: [
+      "I have acquired the skillset to develop web applications using React.js for the front-end, and Node.js with Express for the back-end. Additionally, I have experience in managing databases using MongoDB and SQL",
     ],
   },
 ];
@@ -198,67 +216,73 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Hotel Management",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web aplication about hotel management system. There are customer sides which can booking and hotel agent sides which can managing the room (Not responsive yet).",
+    link: "https://neatly-project.vercel.app/",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "node.js",
         color: "green-text-gradient",
+      },
+      {
+        name: "progreSQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: neatly,
+    source_code_link: "https://github.com/jotanatsit/neatly-project",
+  },
+  {
+    name: "Activity Tracking",
+    description:
+      "A web aplication about exercise activity tracking. The website allows users to create, edit, and delete their activity tracking data, and offers additional features.",
+    link: "https://www.google.com/",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: orange,
+    source_code_link: "https://github.com/JSD4-Orangecat/Activity_Tracking",
+  },
+  {
+    name: "NFT ticket marketplace",
+    description:
+      "The website is dedicated to an NFT marketplace for event tickets and features event crowdfunding, allowing users to raise funds to create awesome events. It is a project built for participation in the Bangkok Blockathon 2023 event hosted by SCB10X.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "web3",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ticket,
+    source_code_link: "https://github.com/Nitchanan-K/Ticket10X_Final",
   },
 ];
 
