@@ -135,7 +135,7 @@ const Hero = () => {
           {/* <Desc>I'am software developer</Desc> */}
           <Button className="hover:bg-[#764AF1]">
             <a
-              href="https://drive.google.com/file/d/1qZWjULfUHooHTdMxQGXIXaUvstVv1GZs/view?usp=sharing"
+              href="https://drive.google.com/file/d/1AqlSSEMskTlsiEibFqqGv3MFmsKlqykA/view?usp=sharing"
               target="blank"
             >
               Resume
