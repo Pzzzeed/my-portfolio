@@ -25,8 +25,8 @@ const App = () => {
         <div className="relative z-0">
           <Contact />
         </div>
+        <Footer />
       </div>
-      <Footer />
     </BrowserRouter>
   );
 };

@@ -3,6 +3,10 @@ import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import Map from "./Map";
 import swal from "sweetalert";
+import { motion } from "framer-motion";
+import { textVariant, textVariantex } from "../utils/motion";
+import { styles } from "../styles";
+import { SectionWrapper } from "../hoc";
 
 const Section = styled.div`
   height: 100vh;
@@ -22,7 +26,6 @@ const Left = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-top: -50px;
   @media only screen and (max-width: 768px) {
     justify-content: center;
   }
@@ -71,6 +74,7 @@ const Button = styled.button`
 
 const Right = styled.div`
   flex: 1;
+  height: 80%;
 
   @media only screen and (max-width: 768px) {
     display: none;
@@ -133,11 +137,18 @@ const Contact = () => {
       );
   };
   return (
-    <Section id="contact">
+    <Section className="mb-[21px]">
+      <motion.div variants={textVariantex()}>
+        <p className={`${styles.sectionSubText} text-center`}>
+          THANK YOU FOR REACHING OUT!
+        </p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>My contact.</h2>
+      </motion.div>
+
       <Container>
         <Left>
-          <Form ref={ref} onSubmit={handleSubmit}>
-            <Title>Contact Me</Title>
+          <Form ref={ref} onSubmit={handleSubmit} className="h-full pt-10">
+            <Title>Contact Form</Title>
             <Input
               placeholder="Name"
               name="name"
@@ -172,4 +183,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default SectionWrapper(Contact, "contact");

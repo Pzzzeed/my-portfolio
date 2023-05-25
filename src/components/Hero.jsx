@@ -23,9 +23,10 @@ const Section = styled.div`
 const Container = styled.div`
   height: 100%;
   scroll-snap-align: center;
-  width: 1400px;
+  width: vw;
   display: flex;
   justify-content: space-between;
+  padding-left: 50px;
 
   @media only screen and (max-width: 768px) {
     width: 100%;
@@ -42,7 +43,6 @@ const Left = styled.div`
   justify-content: center;
   gap: 20px;
   margin-left: 10px;
-
   @media only screen and (max-width: 768px) {
     flex: 1;
     align-items: center;
@@ -54,6 +54,7 @@ const Title = styled.h1`
 
   @media only screen and (max-width: 768px) {
     text-align: center;
+    font-size: 54px;
   }
 `;
 
@@ -122,10 +123,10 @@ const Hero = () => {
           <Title>
             Peeranat <span className="text-[#915EFF]">Phengsalaeh</span>
           </Title>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <Desc className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm software developer <br className="sm:block hidden" />
             who has a lot of passion for software development.
-          </p>
+          </Desc>
           {/* <Desc>I'am software developer</Desc> */}
           <Button className="hover:bg-[#764AF1]">
             <a
