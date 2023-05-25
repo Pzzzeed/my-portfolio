@@ -218,7 +218,7 @@ const projects = [
     name: "Activity Tracking",
     description:
       "A web aplication about exercise activity tracking. The website allows users to create, edit, and delete their activity tracking data, and offers additional features.",
-    link: "https://www.google.com/",
+    link: "https://orangecat.vercel.app/",
     tags: [
       {
         name: "react",
@@ -240,6 +240,7 @@ const projects = [
     name: "NFT ticket marketplace",
     description:
       "The website is dedicated to an NFT marketplace for event tickets and features event crowdfunding, allowing users to raise funds to create awesome events. It is a project built for participation in the Bangkok Blockathon 2023 event hosted by SCB10X.",
+    link: "https://github.com/Nitchanan-K/Ticket10X_Final",
     tags: [
       {
         name: "react",
