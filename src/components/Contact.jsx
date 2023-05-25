@@ -29,6 +29,9 @@ const Left = styled.div`
   @media only screen and (max-width: 768px) {
     justify-content: center;
   }
+  @media only screen and (max-width: 821px) {
+    justify-content: center;
+  }
 `;
 
 const Title = styled.h1`
@@ -76,7 +79,7 @@ const Right = styled.div`
   flex: 1;
   height: 80%;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 821px) {
     display: none;
   }
 `;

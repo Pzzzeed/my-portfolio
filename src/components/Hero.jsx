@@ -55,6 +55,7 @@ const Title = styled.h1`
   @media only screen and (max-width: 768px) {
     text-align: center;
     font-size: 54px;
+    margin-left: -15%;
   }
 `;
 
@@ -64,6 +65,7 @@ const Desc = styled.p`
   @media only screen and (max-width: 768px) {
     padding: 20px;
     text-align: center;
+    margin-left: -15%;
   }
 `;
 
@@ -109,6 +111,9 @@ const Button = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  @media only screen and (max-width: 768px) {
+    margin-left: -15%;
+  }
 `;
 
 const Hero = () => {
