@@ -189,6 +189,28 @@ const experiences = [
 
 const projects = [
   {
+    name: "Activity Tracking",
+    description:
+      "A web aplication about exercise activity tracking. The website allows users to create, edit, and delete their activity tracking data, and offers additional features.",
+    link: "https://orangecat.vercel.app/",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: orange,
+    source_code_link: "https://github.com/JSD4-Orangecat/Activity_Tracking",
+  },
+  {
     name: "Hotel Management",
     description:
       "A web aplication about hotel management system. There are customer sides which can booking and hotel agent sides which can managing the room (Not responsive yet).",
@@ -213,28 +235,6 @@ const projects = [
     ],
     image: neatly,
     source_code_link: "https://github.com/jotanatsit/neatly-project",
-  },
-  {
-    name: "Activity Tracking",
-    description:
-      "A web aplication about exercise activity tracking. The website allows users to create, edit, and delete their activity tracking data, and offers additional features.",
-    link: "https://orangecat.vercel.app/",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: orange,
-    source_code_link: "https://github.com/JSD4-Orangecat/Activity_Tracking",
   },
   {
     name: "NFT ticket marketplace",
