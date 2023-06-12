@@ -2,10 +2,12 @@ import React, { Suspense } from "react";
 import styled from "styled-components";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
-
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
+
+import { github } from "../assets";
 
 const Section = styled.div`
   height: 100vh;
@@ -133,6 +135,37 @@ const Hero = () => {
             who has a lot of passion for software development.
           </Desc>
           {/* <Desc>I'am software developer</Desc> */}
+          <div className="flex flex-wrap gap-1">
+            <Tilt className="xs:w-[100px]">
+              <a
+                href="https://github.com/Pzzzeed"
+                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                target="blank"
+              >
+                <img
+                  src={github}
+                  alt="github-icon"
+                  className="w-16 h-16 object-contain"
+                />
+              </a>
+            </Tilt>
+            <Tilt className="xs:w-[100px]">
+              <a
+                href="https://www.linkedin.com/in/peeranat-phengsalaeh"
+                target="blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-16 h-16 object-contain "
+                >
+                  <path d="M20 20h-3.95v-6.285c0-1.49-.028-3.405-2.075-3.405-2.076 0-2.39 1.622-2.39 3.29V20H8V8h3.877v1.75h.052c.54-1.03 1.864-2.12 3.828-2.12C19.13 7.63 20 10.094 20 12.93V20z M4 8h3.955v12H4V8z M6.976 2C5.897 2 5 2.898 5 3.982c0 1.07.882 1.976 1.976 1.976S8.95 5.052 8.95 3.982C8.95 2.898 8.052 2 6.976 2z" />
+                </svg>
+                <span className="sr-only">LinkedIn account</span>
+              </a>
+            </Tilt>
+          </div>
           <Button className="hover:bg-[#764AF1]">
             <a
               href="https://drive.google.com/file/d/1WFXd_BszYLuIAI8joaD7JcIorYaqMFrc/view?usp=sharing"
