@@ -135,7 +135,7 @@ const Hero = () => {
             who has a lot of passion for software development.
           </Desc>
           {/* <Desc>I'am software developer</Desc> */}
-          <div className="flex flex-wrap gap-1">
+          <div className="flex flex-wrap gap-1 max-[600px]:mr-12">
             <Tilt className="xs:w-[100px]">
               <a
                 href="https://github.com/Pzzzeed"
