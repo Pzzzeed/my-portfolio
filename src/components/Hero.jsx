@@ -168,7 +168,7 @@ const Hero = () => {
           </div>
           <Button className="hover:bg-[#764AF1]">
             <a
-              href="https://drive.google.com/file/d/1WFXd_BszYLuIAI8joaD7JcIorYaqMFrc/view?usp=sharing"
+              href="https://drive.google.com/drive/u/0/folders/1qxad1KDpudhyxHyBg-rxA-dbE9-Mhw6R"
               target="blank"
             >
               Resume
