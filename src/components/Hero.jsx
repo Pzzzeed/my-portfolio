@@ -1,13 +1,13 @@
-import React, { Suspense } from "react";
-import styled from "styled-components";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
-import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
+import React, { Suspense } from 'react';
+import styled from 'styled-components';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls, Sphere, MeshDistortMaterial } from '@react-three/drei';
+import { Tilt } from 'react-tilt';
+import { motion } from 'framer-motion';
 
-import { styles } from "../styles";
+import { styles } from '../styles';
 
-import { github } from "../assets";
+import { github } from '../assets';
 
 const Section = styled.div`
   height: 100vh;
@@ -168,7 +168,7 @@ const Hero = () => {
           </div>
           <Button className="hover:bg-[#764AF1]">
             <a
-              href="https://drive.google.com/file/d/1SRbCYPs0xB76codJYKMnAR5Ykaq_6eT5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1pCt3hXdKEHofGfoB15d35T4sB87rO4aJ/view?usp=sharing"
               target="blank"
             >
               Resume
@@ -206,7 +206,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className="w-3 h-3 rounded-full bg-secondary mb-1"
             />

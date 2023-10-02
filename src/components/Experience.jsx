@@ -1,25 +1,25 @@
-import React from "react";
+import React from 'react';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
+} from 'react-vertical-timeline-component';
+import { motion } from 'framer-motion';
 
-import "react-vertical-timeline-component/style.min.css";
+import 'react-vertical-timeline-component/style.min.css';
 
-import { styles } from "../styles";
-import { experiences } from "../constants";
-import { SectionWrapper } from "../hoc";
-import { textVariant, textVariantex } from "../utils/motion";
+import { styles } from '../styles';
+import { experiences } from '../constants';
+import { SectionWrapper } from '../hoc';
+import { textVariant, textVariantex } from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836",
-        color: "#fff",
+        background: '#1d1836',
+        color: '#fff',
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      contentArrowStyle={{ borderRight: '7px solid  #232631' }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
@@ -40,6 +40,24 @@ const ExperienceCard = ({ experience }) => {
         >
           {experience.company_name}
         </p>
+        {experience.company_name === 'TechUp Thailand' ? (
+          <a
+            href="https://drive.google.com/file/d/1Ryfblkipvalroya09jcbSiPLzsIh50VR/view?usp=sharing"
+            className="text-white text-[16px] font-semibold "
+            target="blank"
+          >
+            Certificate click here
+          </a>
+        ) : null}
+        {experience.company_name === 'Generation Thailand' ? (
+          <a
+            href="https://drive.google.com/file/d/1pBtoMkAqmOpFHjfchMp2WuMBe4P3eoPU/view?usp=sharing"
+            className="text-white text-[16px] font-semibold"
+            target="blank"
+          >
+            Certificate click here
+          </a>
+        ) : null}
       </div>
 
       <ul className="mt-5 list-disc ml-5 space-y-2">
@@ -82,4 +100,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, 'work');
