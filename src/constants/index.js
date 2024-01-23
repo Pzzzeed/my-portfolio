@@ -25,6 +25,11 @@ import {
   neatly,
   orange,
   ticket,
+  yarrow,
+  angular,
+  docker,
+  nestjs,
+  nextjs,
 } from '../assets';
 
 export const navLinks = [
@@ -45,17 +50,17 @@ export const navLinks = [
 const services = [
   {
     title: 'Front-End Developer',
-    additional: 'React.js, Angular',
+    // additional: 'React.js, Angular',
     icon: frontend,
   },
   {
     title: 'Back-End Developer',
-    additional: 'Node.js, Express',
+    // additional: 'Node.js, Express',
     icon: coding,
   },
   {
     title: 'Database Management',
-    additional: 'MongoDB, ProgreSQL',
+    // additional: 'MongoDB, ProgreSQL',
     icon: database,
   },
 ];
@@ -121,6 +126,22 @@ const technologies = [
     name: 'Stripe',
     icon: stripe,
   },
+  {
+    name: 'Angular',
+    icon: angular,
+  },
+  {
+    name: 'NestJS',
+    icon: nestjs,
+  },
+  {
+    name: 'Next.js',
+    icon: nextjs,
+  },
+  {
+    name: 'Docker',
+    icon: docker,
+  },
 ];
 
 const experiences = [
@@ -183,6 +204,22 @@ const experiences = [
     date: 'Feb 2023 - May 2023',
     points: [
       'I have acquired the skillset to develop web applications using React.js for the front-end, and Node.js with Express for the back-end. Additionally, I have experience in managing databases using MongoDB and SQL',
+    ],
+  },
+  {
+    title: 'Full Stack Developer',
+    company_name: 'Yarrow Co. Ltd.',
+    icon: yarrow,
+    iconBg: '#000000',
+    date: 'Aug 2023 - Present',
+    points: [
+      'Work with development teams and product managers to ideate software solutions',
+      'Design client-side and server-side architecture',
+      'Build the front-end of applications through appealing visual design',
+      'Develop and manage well-functioning databases and applications',
+      'Write effective APIs',
+      'Test software to ensure responsiveness and efficiency',
+      'Troubleshoot, debug and upgrade software',
     ],
   },
 ];
